@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cucumber-JVM Html Reports - Feature: HSBC Website different page loading </title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="reporting.css" type="text/css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#tablesorter").tablesorter();
+});
+</script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-jvm Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>MobileAutomation</td>
+                          <td>001</td>
+                        <td>21 Jul 2017, 17:42</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="title">
+  <h2>Feature Report</h2>
+  </div>
+
+
+<div class="container-fluid" id="report-summary">
+  <table class="stats-table">
+    <thead>
+  <tr class="header">
+        <th></th>
+    <th id="stats-header-scenarios" colspan="3">Scenarios</th>
+    <th id="stats-header-steps" colspan="7">Steps</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th id="stats-header-key">Feature</th>
+        <th id="stats-header-scenarios-total">Total</th>
+    <th id="stats-header-scenarios-passed">Passed</th>
+    <th id="stats-header-scenarios-failed">Failed</th>
+    <th id="stats-header-steps-total">Total</th>
+    <th id="stats-header-steps-passed"    class="passed">Passed</th>
+    <th id="stats-header-steps-failed"    class="failed">Failed</th>
+    <th id="stats-header-steps-skipped"   class="skipped">Skipped</th>
+    <th id="stats-header-steps-pending"   class="pending">Pending</th>
+    <th id="stats-header-steps-undefined" class="undefined">Undefined</th>
+    <th id="stats-header-steps-missing"   class="missing">Missing</th>
+    <th id="stats-header-duration">Duration</th>
+    <th id="stats-header-status">Status</th>
+  </tr>
+</thead>
+
+        <tr>
+      <td class="tagname"><a id="stats-HSBC Website different page loading" href="HSBCWeb1-feature.html">HSBC Website different page loading</a></td>
+            <td id="stats-number-scenarios-HSBC Website different page loading">2</td>
+      <td id="stats-number-scenarios-passed-HSBC Website different page loading">0</td>
+      <td id="stats-number-scenarios-failed-HSBC Website different page loading">2</td>
+      <td id="stats-number-steps-HSBC Website different page loading">6</td>
+      <td id="stats-number-steps-passed-HSBC Website different page loading">0</td>
+      <td id="stats-number-steps-failed-HSBC Website different page loading"    >0</td>
+      <td id="stats-number-steps-skipped-HSBC Website different page loading"      class="skipped" >6</td>
+      <td id="stats-number-steps-pending-HSBC Website different page loading"   >0</td>
+      <td id="stats-number-steps-undefined-HSBC Website different page loading" >0</td>
+      <td id="stats-number-steps-missing-HSBC Website different page loading"   >0</td>
+      <td id="stats-duration-HSBC Website different page loading" class="duration-format">000ms</td>
+      <td id="stats-status-HSBC Website different page loading" class="failed">Failed</td>
+    </tr>
+  </table>
+</div>
+
+
+<div class="container-fluid" id="report-details">
+  <div class="feature-tags"></div>
+  <div class="failed">
+    <div class="feature-line">
+      <span class="feature-keyword">Feature: </span>HSBC Website different page loading
+    </div>
+  </div>
+  <div class="feature-description"></div>
+
+      <div class="feature-tags"><a href="AndroidBrowser.html">@AndroidBrowser</a>, <a href="IOSBrowser.html">@IOSBrowser</a></div>
+    <div class="failed"><span class="step-keyword">Before </span><i>Hooks.startSession()</i><span class="step-duration"></span><div class="output_message"><input class="output_collapse" id="output_720242436" type="checkbox"><label for="output_720242436">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65 (WARNING: The server did not provide any stacktrace information)</label><div>Command duration or timeout: 35.02 seconds<br/>Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'<br/>System info: host: 'hsbcs-MacBook-Pro.local', ip: '10.213.146.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_131'<br/>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br/>	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br/>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br/>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)<br/>	at browsers.IosPlatform.configuredIosBrowser(IosPlatform.java:34)<br/>	at browsers.MobilePlatformFactory.configuredPlatform(MobilePlatformFactory.java:31)<br/>	at browsers.Hooks.startSession(Hooks.java:30)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:498)<br/>	at cucumber.runtime.Utils$1.call(Utils.java:37)<br/>	at cucumber.runtime.Timeout.timeout(Timeout.java:13)<br/>	at cucumber.runtime.Utils.invoke(Utils.java:31)<br/>	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)<br/>	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)<br/>	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)<br/>	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)<br/>	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)<br/>	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br/></div></div></div>
+    <div class="failed"><span class="element-keyword">Scenario: </span><span class="element-name">To verify HSBC About HSBC page is loading sucessfully</span></div>
+          <div class="skipped"><span class="step-keyword">Given  </span><span class="step-name">hsbc website page is open</span><span class="step-duration">000ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="skipped"><span class="step-keyword">When  </span><span class="step-name">user clicks on the about hsbc link</span><span class="step-duration">000ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="skipped"><span class="step-keyword">Then  </span><span class="step-name">About HSBC page should open</span><span class="step-duration">000ms</span></div>
+      
+            <div></div>
+      <div></div>
+        <div class="failed"><span class="step-keyword">After </span><i>Hooks.closeSession(Scenario)</i><span class="step-duration"></span><div class="output_message"><input class="output_collapse" id="output_430290487" type="checkbox"><label for="output_430290487">java.lang.NullPointerException</label><div>	at browsers.Hooks.closeSession(Hooks.java:37)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:498)<br/>	at cucumber.runtime.Utils$1.call(Utils.java:37)<br/>	at cucumber.runtime.Timeout.timeout(Timeout.java:13)<br/>	at cucumber.runtime.Utils.invoke(Utils.java:31)<br/>	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)<br/>	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)<br/>	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)<br/>	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)<br/>	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)<br/>	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br/></div></div></div>
+    <br>
+      <div class="feature-tags"><a href="AndroidBrowser.html">@AndroidBrowser</a>, <a href="IOSBrowser.html">@IOSBrowser</a></div>
+    <div class="failed"><span class="step-keyword">Before </span><i>Hooks.startSession()</i><span class="step-duration"></span><div class="output_message"><input class="output_collapse" id="output_627411361" type="checkbox"><label for="output_627411361">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65 (WARNING: The server did not provide any stacktrace information)</label><div>Command duration or timeout: 34.64 seconds<br/>Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'<br/>System info: host: 'hsbcs-MacBook-Pro.local', ip: '10.213.146.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_131'<br/>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br/>	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br/>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br/>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)<br/>	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)<br/>	at browsers.IosPlatform.configuredIosBrowser(IosPlatform.java:34)<br/>	at browsers.MobilePlatformFactory.configuredPlatform(MobilePlatformFactory.java:31)<br/>	at browsers.Hooks.startSession(Hooks.java:30)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:498)<br/>	at cucumber.runtime.Utils$1.call(Utils.java:37)<br/>	at cucumber.runtime.Timeout.timeout(Timeout.java:13)<br/>	at cucumber.runtime.Utils.invoke(Utils.java:31)<br/>	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)<br/>	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)<br/>	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)<br/>	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)<br/>	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)<br/>	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br/></div></div></div>
+    <div class="failed"><span class="element-keyword">Scenario: </span><span class="element-name">To verify HSBC Our purpose page is loading sucessfully</span></div>
+          <div class="skipped"><span class="step-keyword">Given  </span><span class="step-name">hsbc website page is open</span><span class="step-duration">000ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="skipped"><span class="step-keyword">When  </span><span class="step-name">user clicks on the our purpose link</span><span class="step-duration">000ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="skipped"><span class="step-keyword">Then  </span><span class="step-name">Our purpos page should open</span><span class="step-duration">000ms</span></div>
+      
+            <div></div>
+      <div></div>
+        <div class="failed"><span class="step-keyword">After </span><i>Hooks.closeSession(Scenario)</i><span class="step-duration"></span><div class="output_message"><input class="output_collapse" id="output_154487101" type="checkbox"><label for="output_154487101">java.lang.NullPointerException</label><div>	at browsers.Hooks.closeSession(Hooks.java:37)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:498)<br/>	at cucumber.runtime.Utils$1.call(Utils.java:37)<br/>	at cucumber.runtime.Timeout.timeout(Timeout.java:13)<br/>	at cucumber.runtime.Utils.invoke(Utils.java:31)<br/>	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)<br/>	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)<br/>	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)<br/>	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)<br/>	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)<br/>	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)<br/>	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br/>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br/></div></div></div>
+    <br>
+  </div>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

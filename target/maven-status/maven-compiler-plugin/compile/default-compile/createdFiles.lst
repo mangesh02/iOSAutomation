@@ -1,0 +1,16 @@
+browsers/IosPlatform.class
+pages/HSBCWebsitePage.class
+pages/MobileAppPage.class
+pages/Page.class
+browsers/MobilePlatformFactory.class
+automation/config/ReadPropertiesFile.class
+automation/config/PlatformDetails.class
+browsers/AndroidNativeApp.class
+browsers/Hooks.class
+pages/uiCatalogPage.class
+AndroidNativeApp.class
+automation/config/GenericActions.class
+browsers/MobilePlatformFactory1.class
+browsers/AndroidPlatform.class
+pages/CalculatorPage.class
+pages/FlipkartHomePage.class

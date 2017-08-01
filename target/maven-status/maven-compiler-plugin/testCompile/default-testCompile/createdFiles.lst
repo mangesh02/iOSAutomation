@@ -1,0 +1,6 @@
+automation/stepdefs/FlipkartAppStep.class
+automation/stepdefs/HSBCWebStep.class
+automation/suite/RunWIPCukes.class
+automation/stepdefs/CalculatorStep.class
+SimpleTestStep.class
+automation/stepdefs/uiCatalogApp.class
